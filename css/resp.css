@@ -1,13 +1,19 @@
 @media screen and (max-width: 768px) {
     .container{
-        max-width: 90%;
+        max-width: 100%;
     }
 }
 
+@media  screen and (max-width: 1160px ) {
+    .container{
+        max-width: 100%;
+    }
+    
+}
 /* MOBILE*/
 @media screen and  (max-width: 480px) {
     .container{
-        max-width: 90%;
+        max-width: 100%;
     }
     .row{
         flex-wrap: wrap;
