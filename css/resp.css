@@ -1,11 +1,13 @@
 @media screen and (max-width: 768px) {
     .container{
-        max-width: 758px;
+        max-width: 90%;
     }
 }
+
+/* MOBILE*/
 @media screen and  (max-width: 480px) {
     .container{
-        max-width: 378px;
+        max-width: 90%;
     }
     .row{
         flex-wrap: wrap;
@@ -16,5 +18,11 @@
     }
     h1{
         font-size: 3rem;
+    }
+    .why-us{
+        padding: 3rem 0;
+        background-color: rgb(34, 34, 34);
+        margin-top: -3rem;
+        margin-bottom: 0;
     }
 }
