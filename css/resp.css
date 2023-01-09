@@ -1,0 +1,16 @@
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 758px;
+    }
+}
+@media screen and  (max-width: 480px) {
+    .container{
+        max-width: 378px;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    .col{
+        min-width: 100%;
+    }
+}
